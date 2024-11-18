@@ -1,0 +1,46 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutme > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  transition: transform 0.3s;
+}
+
+.aboutme > img:hover {
+  transform: scale(1.1);
+}
+
+.aboutme > p {
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.aboutme > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.aboutme li {
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+}

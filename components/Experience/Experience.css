@@ -1,0 +1,32 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: var(--light-gray);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  list-style: none;
+}
+.experience ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  padding: 2rem;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.experience h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.experience p {
+  font-size: 16px;
+  color: var(--text-color);
+}
