@@ -1,6 +1,6 @@
 import data from '../../Data/Data.js'
 import './Projects.css'
-import ProjectCard from './ProjectCard' // Importamos el componente ProjectCard
+import ProjectCard from './ProjectCard' 
 
 const template = () => {
   return `
