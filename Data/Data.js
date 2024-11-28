@@ -45,32 +45,30 @@ const data = {
     'Frontend and Backend Development'
   ],
   projects: [
-    /*
     {
-      title: 'E-commerce Website',
+      title: 'API-REST Project',
       description:
-        'Designed and developed a feature-rich e-commerce platform with advanced product search, user reviews, and a secure payment system, resulting in a 30% increase in sales for the client.',
-      link: 'http://github.com/#',
+        'Desarrollo de una API REST como ejercicio práctico para explorar conceptos de desarrollo backend.',
+      link: 'https://github.com/AlbertoChinchilla99/Practica-6--API-REST',
       preview:
-        'https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500'
+        'https://www.appleute.de/wp-content/uploads/2021/05/api-removebg-preview-min.png'
     },
     {
-      title: 'Blog Platform',
+      title: 'Back-Front-End Project',
       description:
-        'Created a customizable blog platform with dynamic content creation, user authentication, comment functionality, and social media integration, leading to a 50% growth in user engagement.',
-      link: 'http://github.com/#',
+        'Este proyecto es una plataforma de gestión de eventos, donde los usuarios pueden registrarse, iniciar sesión, explorar eventos disponibles y confirmar su asistencia. Los usuarios autenticados tienen privilegios adicionales, como crear nuevos eventos y ver la lista de asistentes.',
+      link: 'https://github.com/AlbertoChinchilla99/Practica-10-BACK-FRONT-END',
       preview:
-        'https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070'
+        'https://www.extwebtech.com/wp-content/uploads/2023/03/frontend-vs-bancend-1024x512.webp'
     },
     {
       title: 'Portfolio Website',
       description:
-        'Built a professional portfolio website to showcase my web development skills and projects. The site features a clean, responsive design and highlights my work as a developer.',
-      link: 'http://github.com/#',
+        'Construí un sitio web de portafolio profesional para mostrar mis habilidades y proyectos de desarrollo web. El sitio cuenta con un diseño limpio, responsivo y destaca mi trabajo como desarrollador.',
+      link: 'https://github.com/AlbertoChinchilla99/Developer-Portfolio',
       preview:
         'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071'
     }
-  */
   ]
 }
 
