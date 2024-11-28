@@ -24,9 +24,3 @@ const template = () => {
 export const AboutMe = () => {
   return template()
 }
-
-export const addAboutListeners = () => {
-  const avatar = document.querySelector('.avatar')
-
-  avatar.addEventListener('click', (e) => e.target.classList.toggle('rotate'))
-}
