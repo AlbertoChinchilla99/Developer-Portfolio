@@ -27,10 +27,9 @@ export const Main = () => {
 
 export const addMainListeners = () => {
   const button = document.querySelector('#change')
+  const content = document.querySelector('#content')
 
   button.addEventListener('click', () => {
-    const content = document.querySelector('#content')
-
     if (show === 'Experience') {
       content.innerHTML = `${Experience()}`
       show = 'Education'
@@ -39,5 +38,32 @@ export const addMainListeners = () => {
       show = 'Experience'
     }
     button.textContent = `Show ${show}`
+
+    content.scrollIntoView({ behavior: 'smooth' })
+  })
+
+  const links = document.querySelectorAll('a[href^="#"]')
+  links.forEach((link) => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault()
+
+      const targetId = this.getAttribute('href').substring(1)
+      const targetElement = document.getElementById(targetId)
+
+      if (targetId === 'experience' || targetId === 'education') {
+        if (targetId === 'experience') {
+          content.innerHTML = `${Experience()}`
+          show = 'Education'
+        } else if (targetId === 'education') {
+          content.innerHTML = `${Education()}`
+          show = 'Experience'
+        }
+        button.textContent = `Show ${show}`
+
+        content.scrollIntoView({ behavior: 'smooth' })
+      } else if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' })
+      }
+    })
   })
 }
